@@ -1,0 +1,8 @@
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+#text1{
+          text-shadow: 2px 2px #002100;
+}
