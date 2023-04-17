@@ -14,8 +14,28 @@
     <title>Scramnble Score</title>
   </head>
   <body>
-    <div class="shadow-lg p-5 mb-2 bg-success bg-gradient text-white opacity-75">
-      <div id="text1" class="text-center fs-1 fw-bold">Scramnble Score</div>
+    <div
+      class="shadow-lg p-5 mb-2 bg-success bg-gradient text-white opacity-75"
+    >
+      <div id="text1" class="text-center fs-1 fw-bold">Scramble Score</div>
+    </div>
+
+    <div id="card1" class="col-sm-4">
+      <div class="card border-success mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Get a score!</h5>
+          <div class="mb-4">
+            <label for="word"></label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Write a word"
+              id="word"
+            />
+          </div>
+          <button type="button" class="btn btn-success mb-2" onclick="score()">Score</button>
+        </div>
+      </div>
     </div>
 
     <script
@@ -23,5 +43,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <scrip src="js/app.js"></scrip>
   </body>
 </html>
