@@ -23,7 +23,7 @@ function newObScam(alphabet, point) {
 }
 
 function scrambleProcess(wordInput) {
-  const newWord = wordInput.toLocaleUpperCase();
+
   let scramblePoints = [];
   alphabet.forEach((letter) => {
     if (point1.includes(letter)) {
@@ -43,7 +43,7 @@ function scrambleProcess(wordInput) {
     }
   });
 
-  const stringArray = newWord.split("");
+  const stringArray = wordInput.split("");
 
   let totalPoints = 0;
 
@@ -59,7 +59,8 @@ function scrambleProcess(wordInput) {
 }
 
 function scoreSecond() {
-  let wordInput = document.getElementById("word").value.toLocaleUpperCase();
+  let wordInput = document.getElementById("word").value.trim().split(" ").join("").toLocaleUpperCase();
+  console.log(wordInput)
   if (wordInput != "") {
     scrambleProcess(wordInput);
   } else {
