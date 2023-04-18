@@ -43,7 +43,6 @@ alphabet.forEach((letter) => {
 });
 
 const stringArray = newWord.split("");
-console.log(stringArray);
 
 let totalPoints = 0;
 
