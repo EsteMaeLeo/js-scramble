@@ -10,6 +10,9 @@
   text-shadow: 2px 2px #002100;
 }
 
+#result{
+    text-shadow: 1px 1px #052905;
+ }
 .elegantshd {
     color: #131313;
     background-color: #e7e5e4;
